@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3196AAAB2E01348C00F0FAE6 /* NeurolifeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3196AAAA2E01348C00F0FAE6 /* NeurolifeApp.swift */; };
+		3196AAAD2E01348C00F0FAE6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3196AAAC2E01348C00F0FAE6 /* ContentView.swift */; };
+		3196AAAF2E01348D00F0FAE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3196AAAE2E01348D00F0FAE6 /* Assets.xcassets */; };
+		3196AAB22E01348D00F0FAE6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3196AAB12E01348D00F0FAE6 /* Preview Assets.xcassets */; };
+		3196AAB42E01348D00F0FAE6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3196AAB32E01348D00F0FAE6 /* Persistence.swift */; };
+		3196AAB72E01348D00F0FAE6 /* Neurolife.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3196AAB52E01348D00F0FAE6 /* Neurolife.xcdatamodeld */; };
+		3196AAC12E01348E00F0FAE6 /* NeurolifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3196AAC02E01348E00F0FAE6 /* NeurolifeTests.swift */; };
+		3196AACB2E01348E00F0FAE6 /* NeurolifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3196AACA2E01348E00F0FAE6 /* NeurolifeUITests.swift */; };
+		3196AACD2E01348E00F0FAE6 /* NeurolifeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3196AACC2E01348E00F0FAE6 /* NeurolifeUITestsLaunchTests.swift */; };
+		31C2F2212E0185D800F58B8A /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = 31C2F2202E0185D800F58B8A /* GoogleGenerativeAI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3196AABD2E01348D00F0FAE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3196AA9F2E01348C00F0FAE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3196AAA62E01348C00F0FAE6;
+			remoteInfo = Neurolife;
+		};
+		3196AAC72E01348E00F0FAE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3196AA9F2E01348C00F0FAE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3196AAA62E01348C00F0FAE6;
+			remoteInfo = Neurolife;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3196AAA72E01348C00F0FAE6 /* Neurolife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neurolife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3196AAAA2E01348C00F0FAE6 /* NeurolifeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeurolifeApp.swift; sourceTree = "<group>"; };
+		3196AAAC2E01348C00F0FAE6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3196AAAE2E01348D00F0FAE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3196AAB12E01348D00F0FAE6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3196AAB32E01348D00F0FAE6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		3196AAB62E01348D00F0FAE6 /* Neurolife.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Neurolife.xcdatamodel; sourceTree = "<group>"; };
+		3196AABC2E01348D00F0FAE6 /* NeurolifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeurolifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3196AAC02E01348E00F0FAE6 /* NeurolifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeurolifeTests.swift; sourceTree = "<group>"; };
+		3196AAC62E01348E00F0FAE6 /* NeurolifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeurolifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3196AACA2E01348E00F0FAE6 /* NeurolifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeurolifeUITests.swift; sourceTree = "<group>"; };
+		3196AACC2E01348E00F0FAE6 /* NeurolifeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeurolifeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3196AAA42E01348C00F0FAE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C2F2212E0185D800F58B8A /* GoogleGenerativeAI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3196AAB92E01348D00F0FAE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3196AAC32E01348E00F0FAE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3196AA9E2E01348C00F0FAE6 = {
+			isa = PBXGroup;
+			children = (
+				3196AAA92E01348C00F0FAE6 /* Neurolife */,
+				3196AABF2E01348E00F0FAE6 /* NeurolifeTests */,
+				3196AAC92E01348E00F0FAE6 /* NeurolifeUITests */,
+				3196AAA82E01348C00F0FAE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3196AAA82E01348C00F0FAE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3196AAA72E01348C00F0FAE6 /* Neurolife.app */,
+				3196AABC2E01348D00F0FAE6 /* NeurolifeTests.xctest */,
+				3196AAC62E01348E00F0FAE6 /* NeurolifeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3196AAA92E01348C00F0FAE6 /* Neurolife */ = {
+			isa = PBXGroup;
+			children = (
+				3196AAAA2E01348C00F0FAE6 /* NeurolifeApp.swift */,
+				3196AAAC2E01348C00F0FAE6 /* ContentView.swift */,
+				3196AAAE2E01348D00F0FAE6 /* Assets.xcassets */,
+				3196AAB32E01348D00F0FAE6 /* Persistence.swift */,
+				3196AAB52E01348D00F0FAE6 /* Neurolife.xcdatamodeld */,
+				3196AAB02E01348D00F0FAE6 /* Preview Content */,
+			);
+			path = Neurolife;
+			sourceTree = "<group>";
+		};
+		3196AAB02E01348D00F0FAE6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3196AAB12E01348D00F0FAE6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3196AABF2E01348E00F0FAE6 /* NeurolifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				3196AAC02E01348E00F0FAE6 /* NeurolifeTests.swift */,
+			);
+			path = NeurolifeTests;
+			sourceTree = "<group>";
+		};
+		3196AAC92E01348E00F0FAE6 /* NeurolifeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3196AACA2E01348E00F0FAE6 /* NeurolifeUITests.swift */,
+				3196AACC2E01348E00F0FAE6 /* NeurolifeUITestsLaunchTests.swift */,
+			);
+			path = NeurolifeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3196AAA62E01348C00F0FAE6 /* Neurolife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3196AAD02E01348E00F0FAE6 /* Build configuration list for PBXNativeTarget "Neurolife" */;
+			buildPhases = (
+				3196AAA32E01348C00F0FAE6 /* Sources */,
+				3196AAA42E01348C00F0FAE6 /* Frameworks */,
+				3196AAA52E01348C00F0FAE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Neurolife;
+			packageProductDependencies = (
+				31C2F2202E0185D800F58B8A /* GoogleGenerativeAI */,
+			);
+			productName = Neurolife;
+			productReference = 3196AAA72E01348C00F0FAE6 /* Neurolife.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3196AABB2E01348D00F0FAE6 /* NeurolifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3196AAD32E01348E00F0FAE6 /* Build configuration list for PBXNativeTarget "NeurolifeTests" */;
+			buildPhases = (
+				3196AAB82E01348D00F0FAE6 /* Sources */,
+				3196AAB92E01348D00F0FAE6 /* Frameworks */,
+				3196AABA2E01348D00F0FAE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3196AABE2E01348D00F0FAE6 /* PBXTargetDependency */,
+			);
+			name = NeurolifeTests;
+			productName = NeurolifeTests;
+			productReference = 3196AABC2E01348D00F0FAE6 /* NeurolifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3196AAC52E01348E00F0FAE6 /* NeurolifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3196AAD62E01348E00F0FAE6 /* Build configuration list for PBXNativeTarget "NeurolifeUITests" */;
+			buildPhases = (
+				3196AAC22E01348E00F0FAE6 /* Sources */,
+				3196AAC32E01348E00F0FAE6 /* Frameworks */,
+				3196AAC42E01348E00F0FAE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3196AAC82E01348E00F0FAE6 /* PBXTargetDependency */,
+			);
+			name = NeurolifeUITests;
+			productName = NeurolifeUITests;
+			productReference = 3196AAC62E01348E00F0FAE6 /* NeurolifeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3196AA9F2E01348C00F0FAE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3196AAA62E01348C00F0FAE6 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					3196AABB2E01348D00F0FAE6 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 3196AAA62E01348C00F0FAE6;
+					};
+					3196AAC52E01348E00F0FAE6 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 3196AAA62E01348C00F0FAE6;
+					};
+				};
+			};
+			buildConfigurationList = 3196AAA22E01348C00F0FAE6 /* Build configuration list for PBXProject "Neurolife" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3196AA9E2E01348C00F0FAE6;
+			packageReferences = (
+				31C2F21F2E0185D800F58B8A /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
+			);
+			productRefGroup = 3196AAA82E01348C00F0FAE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3196AAA62E01348C00F0FAE6 /* Neurolife */,
+				3196AABB2E01348D00F0FAE6 /* NeurolifeTests */,
+				3196AAC52E01348E00F0FAE6 /* NeurolifeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3196AAA52E01348C00F0FAE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3196AAB22E01348D00F0FAE6 /* Preview Assets.xcassets in Resources */,
+				3196AAAF2E01348D00F0FAE6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3196AABA2E01348D00F0FAE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3196AAC42E01348E00F0FAE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3196AAA32E01348C00F0FAE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3196AAB42E01348D00F0FAE6 /* Persistence.swift in Sources */,
+				3196AAAD2E01348C00F0FAE6 /* ContentView.swift in Sources */,
+				3196AAAB2E01348C00F0FAE6 /* NeurolifeApp.swift in Sources */,
+				3196AAB72E01348D00F0FAE6 /* Neurolife.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3196AAB82E01348D00F0FAE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3196AAC12E01348E00F0FAE6 /* NeurolifeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3196AAC22E01348E00F0FAE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3196AACD2E01348E00F0FAE6 /* NeurolifeUITestsLaunchTests.swift in Sources */,
+				3196AACB2E01348E00F0FAE6 /* NeurolifeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3196AABE2E01348D00F0FAE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3196AAA62E01348C00F0FAE6 /* Neurolife */;
+			targetProxy = 3196AABD2E01348D00F0FAE6 /* PBXContainerItemProxy */;
+		};
+		3196AAC82E01348E00F0FAE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3196AAA62E01348C00F0FAE6 /* Neurolife */;
+			targetProxy = 3196AAC72E01348E00F0FAE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3196AACE2E01348E00F0FAE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3196AACF2E01348E00F0FAE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3196AAD12E01348E00F0FAE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Neurolife/Preview Content\"";
+				DEVELOPMENT_TEAM = J26HTUUF29;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nextgen.Neurolife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3196AAD22E01348E00F0FAE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Neurolife/Preview Content\"";
+				DEVELOPMENT_TEAM = J26HTUUF29;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nextgen.Neurolife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3196AAD42E01348E00F0FAE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J26HTUUF29;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nextgen.NeurolifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neurolife.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Neurolife";
+			};
+			name = Debug;
+		};
+		3196AAD52E01348E00F0FAE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J26HTUUF29;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nextgen.NeurolifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neurolife.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Neurolife";
+			};
+			name = Release;
+		};
+		3196AAD72E01348E00F0FAE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J26HTUUF29;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nextgen.NeurolifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Neurolife;
+			};
+			name = Debug;
+		};
+		3196AAD82E01348E00F0FAE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J26HTUUF29;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nextgen.NeurolifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Neurolife;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3196AAA22E01348C00F0FAE6 /* Build configuration list for PBXProject "Neurolife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3196AACE2E01348E00F0FAE6 /* Debug */,
+				3196AACF2E01348E00F0FAE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3196AAD02E01348E00F0FAE6 /* Build configuration list for PBXNativeTarget "Neurolife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3196AAD12E01348E00F0FAE6 /* Debug */,
+				3196AAD22E01348E00F0FAE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3196AAD32E01348E00F0FAE6 /* Build configuration list for PBXNativeTarget "NeurolifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3196AAD42E01348E00F0FAE6 /* Debug */,
+				3196AAD52E01348E00F0FAE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3196AAD62E01348E00F0FAE6 /* Build configuration list for PBXNativeTarget "NeurolifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3196AAD72E01348E00F0FAE6 /* Debug */,
+				3196AAD82E01348E00F0FAE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		31C2F21F2E0185D800F58B8A /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/generative-ai-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		31C2F2202E0185D800F58B8A /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 31C2F21F2E0185D800F58B8A /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		3196AAB52E01348D00F0FAE6 /* Neurolife.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3196AAB62E01348D00F0FAE6 /* Neurolife.xcdatamodel */,
+			);
+			currentVersion = 3196AAB62E01348D00F0FAE6 /* Neurolife.xcdatamodel */;
+			path = Neurolife.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3196AA9F2E01348C00F0FAE6 /* Project object */;
+}
